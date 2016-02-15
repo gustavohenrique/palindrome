@@ -1,5 +1,11 @@
 > A simple exercise to test a palindrome
 
+![Screenshot](screenshot.png)
+
+## Demo
+
+http://gustavohenrique.github.io/palindrome
+
 ## Setup
 
 ### Running
