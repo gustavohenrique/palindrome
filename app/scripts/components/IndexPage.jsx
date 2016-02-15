@@ -38,7 +38,7 @@ export class SiteForm extends React.Component {
                 <div className="well form-group" style={{margin: "0"}}>
                     <input value={this.state.inputValue} onChange={this.handleChange} onKeyPress={this.handleKeyPress} type="text" className="form-control" placeholder="Word here" />
                     <span className="input-group-btn">
-                        <button onClick={this.handleClick} className="btn btn-raised btn-primary" type="button">Check</button>
+                        <button onClick={this.handleClick} className="btn btn-raised btn-primary" type="button">Check it</button>
                     </span>
                 </div>
                 <div className={palindrome ? "well site-info form-group" : "hidden"}>
