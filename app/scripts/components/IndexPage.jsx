@@ -36,7 +36,7 @@ export class SiteForm extends React.Component {
         return (
             <div className="tab-pane active in">
                 <div className="well form-group" style={{margin: "0"}}>
-                    <input value={this.state.inputValue} onChange={this.handleChange} onKeyPress={this.handleKeyPress} type="text" className="form-control" placeholder="World here" />
+                    <input value={this.state.inputValue} onChange={this.handleChange} onKeyPress={this.handleKeyPress} type="text" className="form-control" placeholder="Word here" />
                     <span className="input-group-btn">
                         <button onClick={this.handleClick} className="btn btn-raised btn-primary" type="button">Check</button>
                     </span>
